@@ -5,7 +5,7 @@ body{
 /*header*/
 /*The hero image*/
 .hero-image {
-    background-color: linear-gradient(rgba(24,193,50,0.5),rgba(0,0,0,0.5));
+    background-color: yellow;
     
     /*Specific height*/
     height: 50%; 
@@ -34,8 +34,9 @@ p{
 
 @media only screen and (max-width:600px) {
     .hero-image{
-        background-color: linear-gradient(rgba(24,193,50,0.5),rgba(0,0,0,0.5));
-
+        background-color:red;
+        padding: 10px;
+        
     }
 }
 @media only screen and (min-width:601px) and (max-width:900px) {
