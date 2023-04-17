@@ -1,4 +1,5 @@
 body{
+    background-color: aliceblue;
     height: 100%;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 22px;
@@ -7,17 +8,12 @@ body{
 
 /*header*/
 /*The hero image*/
-.hero-image {
-    background-color: yellow;
-    
-    /*Specific height*/
-    height: 50%; 
-
-    /*Positioning and center the image*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.hero-image { 
+    border: 2px dashed red;
+    width: 50% ;
+    font-size:  3rem;
+    padding: 0.5em;
+  
 }
 
 /*Placeing the text in the right of the image*/
@@ -49,12 +45,12 @@ button{
     border-radius: 8px;
 }
 }
-.flex-item{
+.grid-item{
     background-color: green;
     border: 1px solid black;
     padding: 10px;
 }
- .flex-container {
+.grid-container {
     background-color: yellowgreen;
     border: 2px solid black;
     width: 75vw;
