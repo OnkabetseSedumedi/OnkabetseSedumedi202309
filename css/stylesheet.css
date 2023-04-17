@@ -8,7 +8,7 @@ body{
 
 /*header*/
 /*The hero image*/
-.hero-image { 
+.heroImage { 
     border: 2px dashed red;
     width: 50% ;
     font-size:  3rem;
@@ -17,7 +17,7 @@ body{
 }
 
 /*Placeing the text in the right of the image*/
-.hero-text {
+.heroText {
     text-align: right;
     position: absolute;
     top: 50%;
@@ -45,12 +45,12 @@ button{
     border-radius: 8px;
 }
 }
-.grid-item{
+.gridItem{
     background-color: green;
     border: 1px solid black;
     padding: 10px;
 }
-.grid-container {
+.gridContainer {
     background-color: yellowgreen;
     border: 2px solid black;
     width: 75vw;
